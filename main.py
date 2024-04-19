@@ -81,9 +81,9 @@ class MyApp:
           first_row = ft.Row(
                controls=[
                     ft.ElevatedButton(text='C', color='red', on_click=clicked, data='C'),
-                    ft.ElevatedButton(text='%', color='white', on_click=clicked, data='%', bgcolor='orange'),
-                    ft.ElevatedButton(text='/', color='white', on_click=clicked, data='/'),
-                    ft.ElevatedButton(text='x', color='white', on_click=clear_one, data='x', width=50)
+                    ft.ElevatedButton(text='x', color='white', on_click=clear_one, data='x', width=50, bgcolor='orange'),
+                    ft.ElevatedButton(text='%', color='white', on_click=clicked, data='%'),
+                    ft.ElevatedButton(text='/', color='white', on_click=clicked, data='/')
                     
                ]
           )
